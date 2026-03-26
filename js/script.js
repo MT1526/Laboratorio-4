@@ -8,12 +8,12 @@ boton.addEventListener('click', function() {
 
     if (nombre !== "") {
         // Cambiamos el contenido de texto del H2
-        salidaSaludo.textContent = "¡Hola, " + nombre + "!";
+        salidaSaludo.textContent = "¡Hola " + nombre + ", bienvenido!";
         
         // Opcional: Limpiar el cuadro de texto después de saludar
         entradaNombre.value = ""; 
     } else {
-        salidaSaludo.textContent = "Por favor, escribe un nombre.";
-        salidaSaludo.style.color = "red"; // ¡Incluso puedes cambiar el color!
+        salidaSaludo.textContent = "escribe un nombre, AHORA MISMO";
+        salidaSaludo.style.color = "red"; //cambiar el color del mensaje de error
     }
 });
