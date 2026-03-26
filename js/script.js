@@ -10,10 +10,10 @@ boton.addEventListener('click', function() {
         // Cambiamos el contenido de texto del H2
         salidaSaludo.textContent = "¡Hola " + nombre + ", bienvenido!";
         
-        // Opcional: Limpiar el cuadro de texto después de saludar
+        //Limpiar el cuadro de texto después de saludar
         entradaNombre.value = ""; 
     } else {
-        salidaSaludo.textContent = "escribe un nombre, AHORA MISMO";
+        salidaSaludo.textContent = "¡ESCRIBE TU NOMBRE, AHORA MISMO!";
         salidaSaludo.style.color = "red"; //cambiar el color del mensaje de error
     }
 });
